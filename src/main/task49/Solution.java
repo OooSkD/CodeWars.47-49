@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 
 public class Solution{
 
-    static String toCamelCase(String s){
+    public static String toCamelCase(String s){
         if (s.indexOf("-")==-1 && s.indexOf("_")==-1)
             return s;
         else
